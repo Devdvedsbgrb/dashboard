@@ -1,0 +1,23 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  text-align: left;
+  padding: 8px 12px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.table th {
+  font-size: 14px;
+  font-weight: 600;
+  color: #4b5563;
+  background-color: #f3f4f6;
+}
+
+.table td {
+  font-size: 14px;
+  color: #374151;
+}
