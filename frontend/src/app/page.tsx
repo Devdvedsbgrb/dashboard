@@ -12,7 +12,6 @@ export default function Home() {
             <One/>
             <SideBar/>
             <TopPanel/>
-            <Chart/>
             <Product/>
     </div>
   );

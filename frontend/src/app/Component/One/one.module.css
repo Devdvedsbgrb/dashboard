@@ -13,13 +13,6 @@
   color: #f9fafb;
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 2rem;
-}
-
 .toggle {
   padding: 0.5rem 1rem;
   border: none;

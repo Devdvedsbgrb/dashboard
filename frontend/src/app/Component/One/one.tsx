@@ -20,12 +20,9 @@ export default function ChartPage() {
 
   return (
     <div className={styles.container}>
-      <div className={styles.header}>
-        <h1>📊 Хяналтын Самбар</h1>
         <button onClick={() => setDarkMode(!darkMode)} className={styles.toggle}>
           {darkMode ? "☀️ Light Mode" : "🌙 Dark Mode"}
         </button>
-      </div>
 
       <div className={styles.selectBox}>
         <label>График сонгох:</label>
