@@ -4,7 +4,7 @@
   font-family: Arial, sans-serif;
   background-color: #f3f4f6;
   min-height: 100vh;
-  color: #111827;
+  color: #293ca7;
   transition: background 0.3s, color 0.3s;
 }
 
@@ -16,7 +16,7 @@
 .toggle {
   padding: 0.5rem 1rem;
   border: none;
-  background-color: #e5e7eb;
+  background-color: #ffffff;
   cursor: pointer;
   border-radius: 6px;
 }
@@ -44,14 +44,14 @@
   border-radius: 6px;
 }
 
-.imageBox {
-  background-color: white;
+/* .imageBox {
+  background-color: rgb(158, 23, 23);
   padding: 1rem;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   max-width: 800px;
   margin: auto;
-}
+} */
 
 .dark .imageBox {
   background-color: #374151;
