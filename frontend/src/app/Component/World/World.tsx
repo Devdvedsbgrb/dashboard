@@ -1,44 +1,20 @@
-// import React from 'react';
-// import styles from './WorldMap.module.css';
-// import {
-//   ComposableMap,
-//   Geographies,
-//   Geography,
-// } from 'react-simple-maps';
+// components/NumberGrid.tsx
+import React from "react";
+import styles from "./World.module.css"; // We'll create this CSS module
 
-// const geoUrl =
-//   'https://raw.githubusercontent.com/deldersveld/topojson/master/world-countries.json';
+const NumberGrid: React.FC = () => {
+  return (
+    <div className={styles.parent}>
+      <div className={styles.div1}>1</div>
+      <div className={styles.div2}>2</div>
+      <div className={styles.div3}>3</div>
+      <div className={styles.div4}>4</div>
+      <div className={styles.div5}>5</div>
+      <div className={styles.div6}>6</div>
+      <div className={styles.div7}>7</div>
+      <div className={styles.div8}>8</div>
+    </div>
+  );
+};
 
-// export default function WorldMap() {
-//   return (
-//     <div className={styles.mapContainer}>
-//       <h3 className={styles.mapTitle}>Sales Mapping by Country</h3>
-//       <ComposableMap projectionConfig={{ scale: 130 }}>
-//         <Geographies geography={geoUrl}>
-//           {({ geographies }) =>
-//             geographies.map((geo) => (
-//               <Geography
-//                 key={geo.rsmKey}
-//                 geography={geo}
-//                 style={{
-//                   default: {
-//                     fill: '#d1d5db',
-//                     outline: 'none',
-//                   },
-//                   hover: {
-//                     fill: '#6366f1',
-//                     outline: 'none',
-//                   },
-//                   pressed: {
-//                     fill: '#4f46e5',
-//                     outline: 'none',
-//                   },
-//                 }}
-//               />
-//             ))
-//           }
-//         </Geographies>
-//       </ComposableMap>
-//     </div>
-//   );
-// }
+export default NumberGrid;
